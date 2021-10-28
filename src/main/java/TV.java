@@ -11,10 +11,15 @@ public class TV {
 	
 
 
+	
+
 	public static int getNumTV() {
 		return numTV;
 	}
 
+	public static void setNumTV(int numTV) {
+		TV.numTV = numTV;
+	}
 
 	public TV(Marca marca, boolean estado) {
 		super();
